@@ -1,0 +1,82 @@
+1.mkdir linux_lab
+
+2.cd ~/linux_lab
+mkdir -p {backups,projects/{scripts,web/static},temp}
+
+3. tree
+
+4. cd projects/scripts
+touch {main.py,config.yaml,utils.sh}
+
+5. cd ~/linux_lab/projects/web/static
+touch {index.html,styles.css}
+
+6.cat >index.html
+abcdfegh
+
+7.cp style.css ~/linux_lab/temp
+cd ~/linux_lab/temp
+mv style.css old_styles.css
+
+8.mv ~/linux_lab/projects/scripts/config.yaml ~/linux_lab/temp
+
+9.cp ~/linux_lab/projects/scripts/*sh ~/linux_lab/temp
+
+10.ls -lRh --sort=size ~/linux_lab
+
+11.cd ~               
+ln ~/linux_lab/projects/scripts/main.py hard_link.txt
+
+12.cat ~/linux_lab/projects/scripts/main.py
+
+13.cat >hard_link.txt 
+test
+
+14.cat ~/linux_lab/projects/scripts/main.py
+
+15.cd ~/linux_lab/temp 
+ ln -s ~/linux_lab/projects/web/static web_link 
+
+16. cd web_link
+
+17.cd ~/linux_lab
+tree
+
+18.tar -cf ~/linux_lab/backups/projects_backup.tar ~/linux_lab/projects 
+
+19.tar -gzip -cf backups/web_backup.tar.gz projects/web
+
+20.zip -j backups/important_files.zip projects/scripts/main.py projects/scripts/utils.sh
+
+21.mkdir temp/restored_web
+tar -xf backups/web_backup.tar.gz -C temp/restored_web/
+
+22.zip -sf backups/important_files.zip
+
+23.rm -r temp/*  
+
+24.rm -r backups/*
+
+25.не осталось
+
+26.whoami >> report.txt
+logname >> report.txt                                    
+pwd >> report.txt 
+id >> report.txt 
+-l projects/scripts >> report.txt
+
+27.date >> report.txt
+
+28.cp report.txt ~
+
+29.zip -r -e ~/linux_lab/linux_lab_final.zip linux_lab 
+
+30.ls -lh ~/linux_lab_final.zip
+
+31.rm -rf ~/linux_lab
+
+32. unzip ~/linux_lab_final.zip
+
+33. cat ~/linux_lab/report.txt
+
+34. tree ~/linux_lab 

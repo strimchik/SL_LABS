@@ -1,0 +1,7 @@
+artjom
+/home/artjom/linux_lab
+uid=1000(artjom) gid=1000(artjom) groups=1000(artjom),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),105(lpadmin),125(sambashare),986(vboxsf)
+total 4
+-rw-rw-r-- 2 artjom artjom 5 Oct  4 12:19 main.py
+-rw-rw-r-- 1 artjom artjom 0 Oct  4 12:12 utils.sh
+Tue Oct  7 09:11:42 PM +03 2025
