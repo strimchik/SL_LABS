@@ -1,0 +1,22 @@
+{
+  "found_users": [
+    {
+      "id": "usr004",
+      "name": "Sophie",
+      "surname": "Davis",
+      "age": 28,
+      "language": "French",
+      "version": "3.0.0",
+      "email": "sophie.davis@email.com",
+      "registration_date": "2022-09-05"
+    }
+  ],
+  "average_age": 28.0,
+  "languages": {
+    "English": 2,
+    "Spanish": 1,
+    "French": 1,
+    "German": 1
+  },
+  "total_users": 5
+}

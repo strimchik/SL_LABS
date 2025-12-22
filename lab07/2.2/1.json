@@ -1,0 +1,9 @@
+{
+  "users": [
+    {"id": "usr001", "name": "John", "surname": "Smith", "age": 25, "language": "English", "version": "1.2.3", "email": "john.smith@email.com", "registration_date": "2023-01-15"},
+    {"id": "usr002", "name": "Maria", "surname": "Johnson", "age": 30, "language": "Spanish", "version": "2.1.0", "email": "maria.johnson@email.com", "registration_date": "2022-11-20"},
+    {"id": "usr003", "name": "Alex", "surname": "Brown", "age": 22, "language": "English", "version": "1.5.1", "email": "alex.brown@email.com", "registration_date": "2023-03-10"},
+    {"id": "usr004", "name": "Sophie", "surname": "Davis", "age": 28, "language": "French", "version": "3.0.0", "email": "sophie.davis@email.com", "registration_date": "2022-09-05"},
+    {"id": "usr005", "name": "Michael", "surname": "Wilson", "age": 35, "language": "German", "version": "2.3.4", "email": "michael.wilson@email.com", "registration_date": "2023-02-28"}
+  ]
+}
